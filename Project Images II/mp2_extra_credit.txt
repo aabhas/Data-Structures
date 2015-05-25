@@ -1,0 +1,26 @@
+Monad Autograder
+Testing mp2.1 at 2014-02-05 00:26:10
+
+"You *could* call it an ape, and that an ape, but that would just be phylogenic pettifogging." ~ D.A. Forsyth
+
+Setting up test environment...
+cp: cannot stat `/dev/shm/geigle1/monad/sp14-cs225/asharm36/mp2/scene.h': No such file or directory
+cp: cannot stat `/dev/shm/geigle1/monad/sp14-cs225/asharm36/mp2/scene.cpp': No such file or directory
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+InvertColorsEven  . . [33 pts] - passed
+FlipLeftEven  . . . . [17 pts] - passed
+FlipLeftOdd . . . . . [17 pts] - passed
+AdjustBrightnessEven  [11 pts] - passed
+AdjustBrightnessEven2 [11 pts] - passed
+AdjustBrightnessEven3 [11 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 100
+

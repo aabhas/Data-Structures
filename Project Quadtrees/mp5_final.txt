@@ -1,0 +1,95 @@
+Monad Autograder
+Testing mp5 at 2014-04-05 00:35:23
+
+"C++ : Where friends have access to your private members." ~ Gavin Russell Baker
+
+Setting up test environment...
+Compiling...
+================================================================
+
+
+Running tests...
+================================================================
+test_default_ctor  . . . . . . [1 pts] - passed
+test_ctor_1  . . . . . . . . . [1 pts] - passed
+test_ctor_2  . . . . . . . . . [2 pts] - passed
+test_buildTree_1 . . . . . . . [2 pts] - passed
+test_buildTree_2 . . . . . . . [1 pts] - passed
+test_buildTree_3 . . . . . . . [2 pts] - passed
+test_cctor_1 . . . . . . . . . [1 pts] - passed
+test_cctor_2 . . . . . . . . . [1 pts] - passed
+test_cctor_3 . . . . . . . . . [1 pts] - passed
+test_cctor_4 . . . . . . . . . [1 pts] - passed
+test_assign_op_1 . . . . . . . [1 pts] - passed
+test_assign_op_2 . . . . . . . [1 pts] - passed
+test_assign_op_3 . . . . . . . [1 pts] - passed
+test_assign_op_4 . . . . . . . [1 pts] - passed
+test_getPixel_1  . . . . . . . [1 pts] - passed
+test_getPixel_2  . . . . . . . [2 pts] - passed
+test_getPixel_3  . . . . . . . [2 pts] - passed
+test_getPixel_4  . . . . . . . [2 pts] - passed
+test_decompress_unpruned_1 . . [1 pts] - passed
+test_decompress_unpruned_2 . . [1 pts] - passed
+test_decompress_unpruned_3 . . [1 pts] - passed
+test_decompress_unpruned_4 . . [1 pts] - passed
+time_getPixel_logn . . . . . . [4 pts] - passed
+time_decompress_n (valgrind) . [4 pts] - FAILED: unit_tests.cpp:296: Runtime was larger than O(n)
+valgrind_big3 (valgrind) . . . [4 pts] - passed
+test_clockwiseRotate_1 . . . . [1 pts] - passed
+test_clockwiseRotate_2 . . . . [1 pts] - passed
+test_clockwiseRotate_3 . . . . [2 pts] - passed
+test_clockwiseRotate_4 . . . . [2 pts] - passed
+test_prune_1 . . . . . . . . . [2 pts] - passed
+test_prune_2 . . . . . . . . . [3 pts] - passed
+test_prune_3 . . . . . . . . . [2 pts] - passed
+test_prune_4 . . . . . . . . . [5 pts] - passed
+test_prune_copy  . . . . . . . [2 pts] - passed
+test_prune_rotate  . . . . . . [2 pts] - passed
+test_prune_getPixel  . . . . . [3 pts] - passed
+test_pruneSize_1 . . . . . . . [2 pts] - passed
+test_pruneSize_2 . . . . . . . [2 pts] - passed
+test_pruneSize_3 . . . . . . . [2 pts] - passed
+test_pruneSize_4 . . . . . . . [2 pts] - passed
+test_pruneSize_5 . . . . . . . [2 pts] - passed
+test_idealPrune_1  . . . . . . [2 pts] - passed
+test_idealPrune_2  . . . . . . [3 pts] - passed
+test_idealPrune_3  . . . . . . [2 pts] - passed
+test_idealPrune_4  . . . . . . [5 pts] - passed
+val_clockwiseRotate (valgrind) [2 pts] - passed
+val_prune (valgrind) . . . . . [4 pts] - passed
+val_idealPrune (valgrind)  . . [3 pts] - passed
+test_const_correctness . . . . [4 pts] - passed
+
+
+Total score...
+================================================================
+TOTAL SCORE: 96
+
+
+
+Detailed test output...
+================================================================
+----------------------------------------------------------------
+time_decompress_n (run under valgrind) [4 points]
+Result: FAILED: unit_tests.cpp:296: Runtime was larger than O(n)
+Took unknown time (120000ms timeout)
+Output:
+----------------------------------------------------------------
+Running time_decompress_n [worth 4 points, output below]
+Input size 1: 31520 iterations in 379 ms for an average of 12.0558 us per call
+Input size 4096: 48 iterations in 885 ms for an average of 18450.6 us per call
+Input size 65536: 3 iterations in 1041 ms for an average of 347003 us per call
+Actual ratio:     18.8187
+Expected ratio:   16
+Wrong/high ratio: 21.3333
+Diff from expected: 2.81872
+Diff from wrong:    2.51462
+Result: FAILED:
+unit_tests.cpp:296: Runtime was larger than O(n)
+
+
+----------------------------------------------------------------
+Total score...
+================================================================
+TOTAL SCORE: 96
+
